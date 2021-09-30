@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.2"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="sample.BankController">
+   <children>
+      <ListView fx:id="BankList" prefHeight="400.0" prefWidth="400.0">
+      </ListView>
+      <Button  layoutX="410.0" layoutY="30.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="80.0" text="Tạo" onAction="#addBank" />
+      <Button layoutX="410.0" layoutY="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="80.0" text="Xóa" onAction="#deleteBank"/>
+      <Button layoutX="410.0" layoutY="150.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="80.0" text="Sửa" onAction="#editBank"/>
+      <Button layoutX="410.0" layoutY="210.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="80.0" text="Làm mới" onAction="#refresh"/>
+      <Button layoutX="410.0" layoutY="270.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="80.0" text="Quay lại" onAction="#goBack"/>
+
+   </children>
+</AnchorPane>

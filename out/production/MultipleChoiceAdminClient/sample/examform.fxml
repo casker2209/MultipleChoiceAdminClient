@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ExamFormController">
+   <children>
+      <TextField fx:id="NameField" layoutX="75.0" layoutY="25.0" prefHeight="40.0" prefWidth="300.0" />
+       <Label layoutX="25" layoutY="25" prefHeight="40.0" prefWidth="50.0" text="Tên" />
+
+      <TextField fx:id="DescriptionField" layoutX="75.0" layoutY="75.0" prefHeight="40.0" prefWidth="300.0" />
+       <Label layoutX="25" layoutY="75" prefHeight="40.0" prefWidth="50.0" text="Miêu tả" />
+      <ListView fx:id="questionListView" layoutX="25.0" layoutY="125.0" prefHeight="300.0" prefWidth="350.0" />
+      <Button layoutX="15.0" layoutY="450.0" mnemonicParsing="false" onAction="#insertExam" prefHeight="25.0" prefWidth="60.0" text="Tạo" />
+      <Button layoutX="90.0" layoutY="450.0" mnemonicParsing="false" onAction="#insertQuestion" prefHeight="25.0" prefWidth="60.0" text="Thêm" />
+       <Button layoutX="165.0" layoutY="450.0" mnemonicParsing="false" onAction="#goBack" prefHeight="25.0" prefWidth="60.0" text="Quay lại" />
+      <Button layoutX="240.0" layoutY="450.0" mnemonicParsing="false" onAction="#Edit" prefHeight="25.0" prefWidth="60.0" text="Sửa" />
+       <Button layoutX="315.0" layoutY="450.0" mnemonicParsing="false" onAction="#Delete" prefHeight="25.0" prefWidth="60.0" text="Xóa" />
+
+   </children>
+</AnchorPane>

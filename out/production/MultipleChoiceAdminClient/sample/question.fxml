@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="sample.QuestionController"
+            prefHeight="360.0" prefWidth="300.0">
+    <children>
+        <Label layoutX="15.0" layoutY="15.0" text="Tên câu hỏi" />
+        <TextField layoutX="15.0" layoutY="40.0" prefHeight="25.0" prefWidth="270.0" fx:id="TextName" />
+        <Label layoutX="20.0" layoutY="85.0" text="A" />
+        <Label layoutX="20.0" layoutY="125.0" text="B" />
+        <Label layoutX="20.0" layoutY="165.0" text="C" />
+        <Label layoutX="20.0" layoutY="205.0" text="D" />
+        <TextField layoutX="60.0" layoutY="80.0" prefHeight="20.0" prefWidth="225.0" fx:id="TextA"/>
+        <TextField layoutX="60.0" layoutY="120.0" prefHeight="20.0" prefWidth="225.0" fx:id="TextB"/>
+        <TextField layoutX="60.0" layoutY="160.0" prefHeight="20.0" prefWidth="225.0" fx:id="TextC"/>
+        <TextField layoutX="60.0" layoutY="200.0" prefHeight="20.0" prefWidth="225.0" fx:id="TextD"/>
+        <Label layoutX="15.0" layoutY="243.0" text="Những câu trả lời đúng" />
+        <CheckBox layoutX="15.0" layoutY="270.0" mnemonicParsing="false" text="A" fx:id="BoxA"/>
+        <CheckBox layoutX="75.0" layoutY="270.0" mnemonicParsing="false" text="B" fx:id="BoxB"/>
+        <CheckBox layoutX="150.0" layoutY="270.0" mnemonicParsing="false" text="C" fx:id="BoxC"/>
+        <CheckBox layoutX="210.0" layoutY="270.0" mnemonicParsing="false" text="D" fx:id="BoxD"/>
+        <Button layoutX="120.0" layoutY="300.0"  prefWidth="60" mnemonicParsing="false" text="Tạo" fx:id="Complete" onAction="#complete"/>
+
+    </children>
+</AnchorPane>

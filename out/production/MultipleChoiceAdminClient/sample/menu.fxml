@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MenuController">
+   <children>
+      <Button fx:id="Exam" layoutX="50.0" layoutY="50.0" mnemonicParsing="false" onAction="#goExam" prefHeight="30.0" prefWidth="300" text="Xem bài kiểm tra" />
+      <Button fx:id="Bank" layoutX="50.0" layoutY="100.0" mnemonicParsing="false" onAction="#goBank" prefHeight="30.0" prefWidth="300" text="Xem ngân hàng câu hỏi" />
+   </children>
+</AnchorPane>
